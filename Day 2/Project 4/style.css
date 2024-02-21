@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Nunito, sans-serif;
+}
+
+.container {
+  width: 30%;
+  margin: 3rem auto;
+  position: relative;
+}
+
+.mountains {
+  width: 100%;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.profile {
+  width: 10rem;
+  border-radius: 50%;
+  border: 5px solid white;
+}
+
+.content {
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 15%);
+}
+
+h1 {
+  font-size: 2.3rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  color: grey;
+}
